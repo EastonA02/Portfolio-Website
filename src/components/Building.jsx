@@ -3,9 +3,9 @@ import buildingImg from "../assets/building.png"
 
 function Building(){
   return (
-    <div className="flex justify-center h-80">
-      <div className="h-60 p-4 w-4/5 bg-emerald-50 
-      border-1 border-emerald-300 rounded-lg flex gap-2">
+    <div className="flex justify-center h-auto md:h-80 pb-10 md:pb-0">
+      <div className="h-auto md:h-60 p-4 w-4/5 bg-emerald-50 
+        border-1 border-emerald-300 rounded-lg flex gap-2">
 
         <div className="left flex gap-2 w-1/2">
           <div className="left">

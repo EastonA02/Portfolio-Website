@@ -13,7 +13,7 @@ function Connect() {
       </div>
 
       <div className="flex-col gap-8 justify-between">
-        <div className="left w-2/5">
+        <div className="left w-full md:w-2/5">
           I'm currently looking for new-grad
           software, technology, and analytical
           opportunities.
@@ -23,7 +23,7 @@ function Connect() {
         md:grid-cols-3 w-full gap-4 py-4">
 
           <a 
-            href="mailto:eastonabel02@gmail.com"
+            href="mailto:easton.abel@student.ufv.ca"
             className="flex gap-3 items-center"
           >
             <Mail className="text-2xl" />

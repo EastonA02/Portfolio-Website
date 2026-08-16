@@ -7,8 +7,8 @@ import ProjectTag from "./ProjectTag"
 
 function Projects(){
   return (
-    <div id="projects" className="h-auto lg:h-100 
-    bg-slate-50 pt-4">
+    <div id="projects" className="h-auto lg:h-100 bg-slate-50 
+      pt-4 pb-10 lg:pb-0">
       <div className="text-center">
         <div className="flex text-center justify-center
         gap-2">
