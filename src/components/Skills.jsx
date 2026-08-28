@@ -24,22 +24,24 @@ function Skills(){
               <SkillTag>Tailwind CSS</SkillTag>
             </div>
           </div>
-          
-          <div className="mobile">
-            <div className="font-semibold">Mobile</div>
-            <div className="flex flex-wrap text-sm gap-2">
-              <SkillTag>React Native</SkillTag>
-              <SkillTag>Expo</SkillTag>
-            </div>
-          </div>
          
           <div className="back-end">
             <div className="font-semibold">
-              Backend / Programming
+              Backend
             </div>
             <div className="flex flex-wrap text-sm gap-2">
               <SkillTag>Java</SkillTag>
+              <SkillTag>Spring Boot</SkillTag>
+              <SkillTag>Spring Data JPA/Hibernate</SkillTag>
+              <SkillTag>REST APIs</SkillTag>
               <SkillTag>Python</SkillTag>
+            </div>
+          </div>
+
+          <div className="mobile">
+            <div className="font-semibold">Database</div>
+            <div className="flex flex-wrap text-sm gap-2">
+              <SkillTag>PostgreSQL</SkillTag>
               <SkillTag>SQL</SkillTag>
             </div>
           </div>
@@ -51,6 +53,7 @@ function Skills(){
               <SkillTag>GitHub</SkillTag>
               <SkillTag>IntelliJ</SkillTag>
               <SkillTag>VS Code</SkillTag>
+              <SkillTag>Postman</SkillTag>
             </div>
           </div>
 

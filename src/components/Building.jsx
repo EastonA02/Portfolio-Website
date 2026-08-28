@@ -1,5 +1,5 @@
 import { Rocket } from "lucide-react";
-import buildingImg from "../assets/building.png"
+import motordeskImg from "../assets/motordesk-erd.png"
 
 function Building(){
   return (
@@ -16,21 +16,25 @@ function Building(){
             <div className="text-emerald-900 font-semibold">
               Currently Building
             </div>
-            <div className="font-semibold">Safe to Spend</div>
-            <p className="text-sm">
-              A simple personal finance app designed to
-              answer one question:
+            <div className="font-semibold">MotorDesk</div>
+            <p className="text-sm pb-4">
+              A full-stack shop-management platform for 
+              automotive repair businesses.
             </p>
             <p className="text-sm">
-              "How much can I acutally spend today?"
+              Currently building the Spring Boot/PostgreSQL 
+              backend, with a React/TypeScript frontend, 
+              Docker containerization, AWS deployment, and 
+              CI/CD planned next.
             </p>
           </div>
         </div>
 
-        <div className="right w-1/2 h-full flex justify-center">
+        <div className="right w-1/2 h-full flex items-center justify-center">
           <img 
-            className="h-full object-contain"
-            src={buildingImg} 
+            className="w-[90%] object-contain"
+            src={motordeskImg}
+            alt="MotorDesk entity relationship diagram"
           />
         </div>
 

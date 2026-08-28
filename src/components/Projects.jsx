@@ -1,6 +1,6 @@
 import { Folder } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
-import appImg from "../assets/project1.png"
+import motordeskCardImg from "../assets/motordesk.png"
 import project2Img from "../assets/project2.png"
 import project3Img from "../assets/project3.png"
 import ProjectTag from "./ProjectTag"
@@ -27,11 +27,36 @@ function Projects(){
           min-[900px]:grid-cols-2 lg:grid-cols-3
           gap-6 lg:gap-20">
  
-            <div className="left border-1 w-60
-            border-gray-300 border-solid rounded-lg">
-                <img className="rounded-lg
-                w-full h-full" 
-                src={appImg}/>
+            <div className="middle w-60
+            border-1 rounded-lg border-gray-300
+            flex flex-col">
+              <img className="rounded-t-lg
+              w-full h-32 object-cover" src={motordeskCardImg} />
+              <div className="text-sm font-bold
+              px-2">
+                MotorDesk
+              </div>
+              <p className="text-xs px-2">
+                Multi-tenant shop-management platform for automotive 
+                repair businesses to manage customers, vehicles, 
+                and work orders.
+              </p>
+              <div className="flex flex-wrap gap-2 justify-between
+              text-xs py-2 px-1">
+                <ProjectTag>Java</ProjectTag>
+                <ProjectTag>Spring Boot</ProjectTag>
+                <ProjectTag>PostgreSQL</ProjectTag>
+                <ProjectTag>REST API</ProjectTag>
+              </div>
+              <a
+                href="https://github.com/EastonA02/MotorDesk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs font-bold flex gap-2 
+                items-center px-2 py-1 mt-auto">
+              <FaGithub className="text-xl" />
+              View on Github →
+            </a>
             </div>
 
             <div className="middle w-60
